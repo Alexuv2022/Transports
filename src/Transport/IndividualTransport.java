@@ -1,4 +1,4 @@
 package Transport;
 
-public class IndividualTransport {
+public interface IndividualTransport {
 }

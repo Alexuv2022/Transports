@@ -1,4 +1,7 @@
 package Transport.Ships;
 
-public class Boat {
+import Transport.IndividualTransport;
+import Transport.Ship;
+
+public class Boat  extends Ship implements IndividualTransport {
 }

@@ -1,4 +1,8 @@
 package Transport.Vehicles;
 
-public class BMP {
+import Transport.GasolineEngine;
+import Transport.MilitaryMachine;
+import Transport.Vehicle;
+
+public class BMP  extends Vehicle implements GasolineEngine, MilitaryMachine {
 }
