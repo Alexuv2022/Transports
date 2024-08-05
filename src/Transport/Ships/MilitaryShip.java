@@ -1,8 +1,8 @@
 package Transport.Ships;
 
+import Transport.ElectricEngine;
 import Transport.MilitaryMachine;
 import Transport.Ship;
-import Transport.SteamEngine;
 
-public class MilitaryShip  extends Ship implements SteamEngine, MilitaryMachine {
+public class MilitaryShip  extends Ship implements ElectricEngine, MilitaryMachine {
 }
